@@ -1,0 +1,42 @@
+.Degree1 {
+  color: blueviolet;
+}
+.Degree2 {
+  color: cadetblue;
+}
+.Degree3 {
+  color: cadetblue;
+}
+.Degree4 {
+  /* bg-danger flex-row justify-content-lg-center p-4 rounded-4; */
+ background-color:rgb(75, 53, 23);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 500px;
+
+}
+.Degree5{
+  background-color:slategrey !important;
+}
+
+/* font-size: 110%;
+  font-weight: 600;
+  color: darkslategray;
+  font-style: normal; */
+
+  .Degree6 {
+    color: aquamarine;
+    font-size:40px !important;
+  }
+  .Degree12{
+    color:blueviolet !important;
+  }
+  .Degree7{
+    color:blue;
+  }
+  .Degree8{
+    color: darkcyan;
+    font-size: 25px;
+    font-weight: 500;
+  }

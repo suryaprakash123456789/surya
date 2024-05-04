@@ -1,0 +1,103 @@
+.intro1 {
+  font-size: 150%;
+  font-weight: 500;
+  color: darkslategray;
+  /* text-align:justify; */
+  margin-left: 50px;
+}
+
+.intro2 {
+  color: navy;
+  font-size: 55px !important;
+  font-family: "Times New Roman", Times;
+  font-weight: 400;
+ 
+}
+/* .intro3{
+  margin-top: 2%!important;
+} */
+
+/* @keyframes slide {
+    0%{
+        opacity: 0;
+        transform: translateY(40%);
+
+    }
+    50%{
+        opacity: 1;
+        transform: translateY(100%);
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+}
+.intro1{
+    animation-name: intro1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.intro2:hover{
+    animation: 1s ease-in-out 0s 1 normal forwards running intro2;
+} */
+
+@keyframes slide {
+  0% {
+    transform: translatex(40px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.intro2 {
+  animation: slide 1.5s linear 0.5s;
+}
+.intro1 {
+  animation: slide 1.5s linear 2s;
+}
+.intro3 {
+  animation: slide 1.5s linear 3s;
+}
+
+@media screen and (min-width: 0px) and (max-width: 990px) {
+  .intro2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.About1 {
+  color: darkviolet;
+  font-size: 45px;
+  text-align: center;
+}
+.About2 {
+  color: darkcyan;
+}
+.About3 {
+  font-size: 130%;
+  font-weight: 430 !important;
+  color: darkslategray;
+  font-style: normal;
+  text-align: justify;
+}
+
+.Skills1 {
+  color: darkviolet;
+  font-size: 45px;
+  text-align: center;
+}
+.Skills2 {
+  font-size: 140%;
+  font-weight: 490;
+  color: darkslategray;
+  font-style: normal;
+  text-align: justify;
+}
