@@ -8,7 +8,7 @@ function About() {
     <div className="row ">
       <h1 className="About1">What I Do</h1>
       <div className="col-lg-5 m-5  ">
-    <img src="programming-removebg.png" alt="" width="400px" height="400px"/>
+    <img src="aboutme-21.png" alt=""  width={400} className="aboutme"  />
       </div>
       <div className="col-lg-5 m-5  ">
         <h1 className="About2">Full Stack developer</h1>

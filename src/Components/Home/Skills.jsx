@@ -19,7 +19,7 @@ function Skills() {
       <img src={logo} alt="" width="25px" /><span className='Skills2'>Experince in connecting nearby servers gateways by differnt servers.</span>
       </div>
      <div className='col-md-5 m-5'>
-     <img src="cloud-removebg.png" alt="" width="400px" height="400px"/>
+     <img src="cloud-2.png" alt="" width="430px" height="430px"/>
      </div>
     </div>
 

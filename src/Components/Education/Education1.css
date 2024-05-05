@@ -2,18 +2,18 @@
   color: blueviolet;
 }
 .Degree2 {
-  color: cadetblue;
+  color: darkcyan;
 }
 .Degree3 {
-  color: cadetblue;
+  color: darkcyan;
 }
 .Degree4 {
   /* bg-danger flex-row justify-content-lg-center p-4 rounded-4; */
- background-color:rgb(75, 53, 23);
+ background-color:rgb(75, 53, 23) !important ;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 500px;
+  border-radius: 1500px !important;
 
 }
 .Degree5{

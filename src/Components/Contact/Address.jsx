@@ -14,7 +14,7 @@ function Address() {
           </button>
     </div>
     <div className='col-lg-6'>
-      <img src="Address.jpg" alt="" width={550}/>
+      <img src="Address-removebg-preview (1).png" alt="" width={400}/>
      </div>
     </div>
   )

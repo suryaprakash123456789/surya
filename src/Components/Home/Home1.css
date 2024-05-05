@@ -8,9 +8,9 @@
 
 .intro2 {
   color: navy;
-  font-size: 55px !important;
+  font-size: 45px !important;
   font-family: "Times New Roman", Times;
-  font-weight: 400;
+  font-weight: 550;
  
 }
 /* .intro3{
@@ -82,13 +82,16 @@
   color: darkcyan;
 }
 .About3 {
-  font-size: 130%;
-  font-weight: 430 !important;
+  font-size: 140%;
+  font-weight: 49M0 !important;
   color: darkslategray;
   font-style: normal;
   text-align: justify;
 }
-
+.aboutme{
+  margin-left: 60px;
+  margin-top: 70px;
+}
 .Skills1 {
   color: darkviolet;
   font-size: 45px;

@@ -12,7 +12,7 @@ function Intro() {
             sustainable solutions that leave a lasting mark on both communities
             and industries.
           </p>
-          <span>hello</span>
+          
        
         <div className="row d-flex gap-3 ">
           <div className=" col-md-1 col-sm-2 col-3">
@@ -90,8 +90,8 @@ function Intro() {
         </button>
       </div>
 
-      <div className=" col-md-5 col-12 col-sm-12 d-flex justify-content-center al intro3">
-        <img src="intro1.png" alt="" width="430px" height="400px" />
+      <div className=" col-md-5 col-12 col-sm-12 d-flex justify-content-center   intro3">
+        <img src="intro1.png" alt="" width="380px" />
       </div>
     </div>
   );

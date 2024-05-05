@@ -5,7 +5,7 @@ function Myprojects() {
   return (
     <div className='row m-5'>
       <div className='col-lg-6'>
-        <img src="projects.jpg" alt="" width="500px"/>
+        <img src="projects1.png" alt="" width="400px"/>
       </div>
       <div className='col-lg-6'>
         <h1 className='proj1'>My Projects</h1>
