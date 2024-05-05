@@ -16,78 +16,92 @@ function Intro() {
        
         <div className="row d-flex gap-3 ">
           <div className=" col-md-1 col-sm-2 col-3">
-            <img
-              src="icons8-linkedin-48 (1).png"
-              width="45px"
-              alt=""
-              style={{
-                boxShadow: "2px 2px 2px 2px purple",
-                borderRadius: "5px",
-              }}
-            />
+            <a href="https://www.linkedin.com/in/v-surya-prakash-a6953421b/">
+              <img
+                src="icons8-linkedin-48 (1).png"
+                width="45px"
+                alt=""
+                style={{
+                  boxShadow: "2px 2px 2px 2px purple",
+                  borderRadius: "5px",
+                }}
+              />
+            </a>
           </div>
 
           <div className=" col-md-1 col-sm-2 col-3">
-            <img
-              src="icons8-github-64.png"
-              width="45px"
-              alt=""
-              style={{
-                boxShadow: "2px 2px 2px 2px purple",
-                borderRadius: "5px",
-              }}
-            />
+            <a href="https://github.com/suryaprakash123456789">
+              <img
+                src="icons8-github-64.png"
+                width="45px"
+                alt=""
+                style={{
+                  boxShadow: "2px 2px 2px 2px purple",
+                  borderRadius: "5px",
+                }}
+              />
+            </a>
           </div>
 
           <div className="col-md-1 col-sm-2 col-3 ">
-            <img
-              src="icons8-insta-48.png"
-              width="45px"
-              alt=""
-              style={{
-                boxShadow: "2px 2px 2px 2px purple",
-                borderRadius: "5px",
-              }}
-            />
+            <a href="https://www.instagram.com/vsuryap/?next=%2F">
+              <img
+                src="icons8-insta-48.png"
+                width="45px"
+                alt=""
+                style={{
+                  boxShadow: "2px 2px 2px 2px purple",
+                  borderRadius: "5px",
+                }}
+              />
+            </a>
           </div>
 
           <div className="col-md-1 col-sm-2 col-3 ">
-            <img
-              src="icons8-google-48.png"
-              width="45px"
-              alt=""
-              style={{
-                boxShadow: "2px 2px 2px 2px purple",
-                borderRadius: "5px",
-              }}
-            />
+           <a href="https://myaccount.google.com/?hl=en&utm_source=OGB&utm_medium=act">
+             
+                <img
+                  src="icons8-google-48.png"
+                  width="45px"
+                  alt=""
+                  style={{
+                    boxShadow: "2px 2px 2px 2px purple",
+                    borderRadius: "5px",
+                  }}
+                />
+           </a>
+           
           </div>
           <div className="col-md-1 col-sm-2 col-3 ">
-            <img
-              src="icons8-fb-48.png"
-              width="45px"
-              alt=""
-              style={{
-                boxShadow: "2px 2px 2px 2px purple",
-                borderRadius: "5px",
-              }}
-            />
+            <a href="https://www.facebook.com/profile.php?id=100046416469121">
+              <img
+                src="icons8-fb-48.png"
+                width="45px"
+                alt=""
+                style={{
+                  boxShadow: "2px 2px 2px 2px purple",
+                  borderRadius: "5px",
+                }}
+              />
+            </a>
           </div>
         </div>
-        <button
-          className="mx-lg-0  "
-          style={{
-            backgroundColor:"darkolivegreen",
-            margin: "20px 20px",
-            borderRadius: "10px",
-            color: "white",
-            fontSize: "25px",
-            fontWeight:"bold",
-            border:0
-          }}
-        >
-          Star me on GitHub <img src="icons8-github-64.png" alt="" width="40px" />
-        </button>
+        <a href="https://github.com/suryaprakash123456789?tab=stars">
+          <button
+            className="mx-lg-0  "
+            style={{
+              backgroundColor:"darkolivegreen",
+              margin: "20px 20px",
+              borderRadius: "10px",
+              color: "white",
+              fontSize: "25px",
+              fontWeight:"bold",
+              border:0
+            }}
+          >
+            Star me on GitHub <img src="icons8-github-64.png" alt="" width="40px" />
+          </button>
+        </a>
       </div>
 
       <div className=" col-md-5 col-12 col-sm-12 d-flex justify-content-center   intro3">
