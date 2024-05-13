@@ -41,11 +41,11 @@
 
 .intro2:hover{
     animation: 1s ease-in-out 0s 1 normal forwards running intro2;
+
 } */
 
 @keyframes slide {
   0% {
-    transform: translatex(40px);
     opacity: 0;
   }
   50% {
@@ -53,25 +53,30 @@
   }
   100% {
     opacity: 1;
+    transform: translateY(30px);
   }
 }
 .intro2 {
   animation: slide 1.5s linear 0.5s;
 }
-.intro1 {
+.intro3{
+  animation: slide 1.5s linear 0.5s;
+}
+.intro21 {
+  animation: slide 1.5s linear 1s;
+}
+.into22{
+  animation: slide 1.5s linear 1.5s;
+}
+.intro23{
   animation: slide 1.5s linear 2s;
 }
-.intro3 {
-  animation: slide 1.5s linear 3s;
-}
 
-@media screen and (min-width: 0px) and (max-width: 990px) {
+/* @media screen and (min-width: 768px) and (max-width: 990px) {
   .intro2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   text-overflow:ellipsis;
   }
-}
+} */
 
 .About1 {
   color: darkviolet;
@@ -104,3 +109,4 @@
   font-style: normal;
   text-align: justify;
 }
+

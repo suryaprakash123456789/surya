@@ -5,7 +5,7 @@ import "./Nav1.css"
 function Navbar() {
   return (
     <div
-      className="row d-flex justify-content-around align-items-center    p-4  Nav1"
+      className="row d-flex     p-4  Nav1"
   
     >
       <NavLink to="/Home" className="hom col-12 col-sm-12 col-lg-2"

@@ -1,10 +1,29 @@
 .Nav1{
     overflow:hidden;
-    margin-left: 400px !important;
+    margin-left: 500px !important;
     font-size:20px;
     font-weight: 350 !important;  
+    gap: 25px !important ;
 }
 
 .hom{
     color:darkolivegreen;
+    
 }
+
+@keyframes slide {
+    0% {
+      transform: translateY(-40px);
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .Nav1 {
+    animation: slide 1s linear 0s;
+  }
+  
