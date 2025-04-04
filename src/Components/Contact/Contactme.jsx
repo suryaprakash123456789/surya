@@ -61,7 +61,7 @@ function Contactme() {
           
     </div>
         
-          <a href="Resume_V Surya Prakash.pdf">
+          <a href="Surya Prakash _ Resume.pdf">
             <button
               className="mx-lg-0 "
               style={{ backgroundColor: "darkblue", margin: "30px 30px",borderRadius: "5px",boxShadow:"2px 2px  purple ",color:"white", fontSize:"25px" }}

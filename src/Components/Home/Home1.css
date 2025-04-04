@@ -1,9 +1,9 @@
 .intro1 {
-  font-size: 150%;
+  font-size: 160%;
   font-weight: 500;
   color: darkslategray;
   /* text-align:justify; */
-  margin-left: 50px;
+  /* margin-left: 20px; */
 }
 
 .intro2 {
@@ -13,6 +13,43 @@
   font-weight: 550;
  
 }
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .intro21,.intro2{
+text-align:center !important;
+margin-left: 80px !important;
+  }
+  .into22{  
+    margin-left: 120px !important;
+  }
+  .intro23{ 
+margin-left:180px !important;
+   /* align-items: center !important;
+   justify-content: center !important;
+   display: flex !important;; */
+   
+  }
+
+  /* .intro2{
+    margin-left: 50px !important;
+  }
+  */
+}
+
+@media screen and (min-width: 770px) and (max-width:2560px) {
+  .intro1{
+ margin-left: 40px !important;
+  }
+
+}
+
+/* @media screen and (min-width: 770px) and (max-width:1440px) {
+  .intro23{
+ 
+ 
+} */
+
+
 /* .intro3{
   margin-top: 2%!important;
 } */
@@ -85,18 +122,47 @@
 }
 .About2 {
   color: darkcyan;
+  text-align: center;
+  margin: 30px;
 }
 .About3 {
   font-size: 140%;
   font-weight: 49M0 !important;
   color: darkslategray;
   font-style: normal;
-  text-align: justify;
+  /* text-align: justify; */
+ 
 }
 .aboutme{
   margin-left: 60px;
   margin-top: 70px;
 }
+
+.about21{
+  margin-left: 90px !important;
+  
+}
+
+.About3{
+  margin-left: 100px !important;
+  /* margin-top: 100px !important; */
+  /* align-items: center !important;
+  justify-content: center !important;
+  display: flex !important;; */
+}
+
+@media screen and (min-width:0px) and (max-width:768px)
+{
+  /* .About2{
+   text-align: center;
+  }
+  .About3{
+    text-align: center !important;
+    margin-left: 80px !important;
+  
+  } */
+}
+
 .Skills1 {
   color: darkviolet;
   font-size: 45px;
@@ -107,6 +173,10 @@
   font-weight: 490;
   color: darkslategray;
   font-style: normal;
-  text-align: justify;
+  /* text-align: justify; */
+  margin-left: 100px !important;
 }
-
+.skill4{
+  margin-left: 100px !important;
+  margin-top: 50px !important;
+}

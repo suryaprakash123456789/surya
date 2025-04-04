@@ -3,10 +3,10 @@ import "./Home1.css";
 function Intro() {
   return (
     <div className="row intro">
-      <div class=" col-lg-6 col-md-6 col-sm-12 col-12 intro1 ">
+      <div class=" col-lg-6 col-md-6 col-sm-12  intro1 ">
         <h1 className="intro2">Surya Prakash</h1>
 
-        <p className="intro21">
+        <p className="intro21"> 
           My passion lies in building end-to-end products that seamlessly
           integrate social and technical elements, paving the way for
           sustainable solutions that leave a lasting mark on both communities
@@ -100,7 +100,7 @@ function Intro() {
           target="_blank"
         >
           <button
-            className="mx-lg-0 intro23  "
+            className=" intro23  "
             style={{
               backgroundColor: "darkolivegreen",
               margin: "20px 20px",
@@ -117,8 +117,8 @@ function Intro() {
         </a>
       </div>
 
-      <div className=" col-md-5 col-12 col-sm-12 d-flex justify-content-center   intro3">
-        <img src="intro1.png" alt="" width="380px" />
+      <div className=" col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center   intro3">
+        <img src="intro1.png" alt="" width="390px"  />
       </div>
     </div>
   );
